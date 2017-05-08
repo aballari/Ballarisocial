@@ -1,0 +1,6 @@
+framework module Pods_BallarisocialUITests {
+  umbrella header "Pods-BallarisocialUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

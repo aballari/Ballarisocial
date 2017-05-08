@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BBED30255CCF5DF8D5F0710 /* Pods_BallarisocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25965B545E119E07F1489795 /* Pods_BallarisocialUITests.framework */; };
+		927F38B23A25211EA64E565F /* Pods_Ballarisocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8315E0CB1CB61972199372 /* Pods_Ballarisocial.framework */; };
+		A71F8CED3FFFA33247EEB72D /* Pods_BallarisocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA526116397004F93C8EB9A /* Pods_BallarisocialTests.framework */; };
 		CE7CA9CC1EC011B100F84B8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CA9CB1EC011B100F84B8F /* AppDelegate.swift */; };
-		CE7CA9CE1EC011B100F84B8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CA9CD1EC011B100F84B8F /* ViewController.swift */; };
+		CE7CA9CE1EC011B100F84B8F /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CA9CD1EC011B100F84B8F /* SignInVC.swift */; };
 		CE7CA9D11EC011B100F84B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7CA9CF1EC011B100F84B8F /* Main.storyboard */; };
 		CE7CA9D31EC011B100F84B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7CA9D21EC011B100F84B8F /* Assets.xcassets */; };
 		CE7CA9D61EC011B100F84B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7CA9D41EC011B100F84B8F /* LaunchScreen.storyboard */; };
 		CE7CA9E11EC011B100F84B8F /* BallarisocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CA9E01EC011B100F84B8F /* BallarisocialTests.swift */; };
 		CE7CA9EC1EC011B100F84B8F /* BallarisocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CA9EB1EC011B100F84B8F /* BallarisocialUITests.swift */; };
+		CE7CA9FA1EC011E000F84B8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7CA9F91EC011E000F84B8F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B6F8A0D9DCEC69E1248213 /* Pods-BallarisocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallarisocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BallarisocialTests/Pods-BallarisocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		1ED73FE172DE1E65E87471A9 /* Pods-BallarisocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallarisocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BallarisocialUITests/Pods-BallarisocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25965B545E119E07F1489795 /* Pods_BallarisocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallarisocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA526116397004F93C8EB9A /* Pods_BallarisocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallarisocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9644A059CBDBB86CD60B72CC /* Pods-BallarisocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallarisocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BallarisocialTests/Pods-BallarisocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8315E0CB1CB61972199372 /* Pods_Ballarisocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ballarisocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CA9C81EC011B100F84B8F /* Ballarisocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ballarisocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CA9CB1EC011B100F84B8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE7CA9CD1EC011B100F84B8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE7CA9CD1EC011B100F84B8F /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		CE7CA9D01EC011B100F84B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7CA9D21EC011B100F84B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7CA9D51EC011B100F84B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		CE7CA9E71EC011B100F84B8F /* BallarisocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallarisocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7CA9EB1EC011B100F84B8F /* BallarisocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallarisocialUITests.swift; sourceTree = "<group>"; };
 		CE7CA9ED1EC011B100F84B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7CA9F91EC011E000F84B8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA6065E0CD6360A7636B99E4 /* Pods-Ballarisocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ballarisocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ballarisocial/Pods-Ballarisocial.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDCB63F4E9414DC05B4BB92 /* Pods-Ballarisocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ballarisocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ballarisocial/Pods-Ballarisocial.release.xcconfig"; sourceTree = "<group>"; };
+		F97C56E097CE42BF10510F6F /* Pods-BallarisocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallarisocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BallarisocialUITests/Pods-BallarisocialUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927F38B23A25211EA64E565F /* Pods_Ballarisocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71F8CED3FFFA33247EEB72D /* Pods_BallarisocialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBED30255CCF5DF8D5F0710 /* Pods_BallarisocialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		592D795A92201B0E6F0EA4B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6065E0CD6360A7636B99E4 /* Pods-Ballarisocial.debug.xcconfig */,
+				DCDCB63F4E9414DC05B4BB92 /* Pods-Ballarisocial.release.xcconfig */,
+				9644A059CBDBB86CD60B72CC /* Pods-BallarisocialTests.debug.xcconfig */,
+				12B6F8A0D9DCEC69E1248213 /* Pods-BallarisocialTests.release.xcconfig */,
+				1ED73FE172DE1E65E87471A9 /* Pods-BallarisocialUITests.debug.xcconfig */,
+				F97C56E097CE42BF10510F6F /* Pods-BallarisocialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD2AA200B35D591ED4A5D897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE8315E0CB1CB61972199372 /* Pods_Ballarisocial.framework */,
+				2FA526116397004F93C8EB9A /* Pods_BallarisocialTests.framework */,
+				25965B545E119E07F1489795 /* Pods_BallarisocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE292F621EC017CF009E4A98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE292F631EC017EB009E4A98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE292F641EC017F3009E4A98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7CA9CD1EC011B100F84B8F /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		CE7CA9BF1EC011B100F84B8F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +143,8 @@
 				CE7CA9DF1EC011B100F84B8F /* BallarisocialTests */,
 				CE7CA9EA1EC011B100F84B8F /* BallarisocialUITests */,
 				CE7CA9C91EC011B100F84B8F /* Products */,
+				592D795A92201B0E6F0EA4B0 /* Pods */,
+				AD2AA200B35D591ED4A5D897 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +161,15 @@
 		CE7CA9CA1EC011B100F84B8F /* Ballarisocial */ = {
 			isa = PBXGroup;
 			children = (
+				CE292F621EC017CF009E4A98 /* Model */,
+				CE292F641EC017F3009E4A98 /* Controller */,
+				CE292F631EC017EB009E4A98 /* View */,
 				CE7CA9CB1EC011B100F84B8F /* AppDelegate.swift */,
-				CE7CA9CD1EC011B100F84B8F /* ViewController.swift */,
 				CE7CA9CF1EC011B100F84B8F /* Main.storyboard */,
 				CE7CA9D21EC011B100F84B8F /* Assets.xcassets */,
 				CE7CA9D41EC011B100F84B8F /* LaunchScreen.storyboard */,
 				CE7CA9D71EC011B100F84B8F /* Info.plist */,
+				CE7CA9F91EC011E000F84B8F /* GoogleService-Info.plist */,
 			);
 			path = Ballarisocial;
 			sourceTree = "<group>";
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7CA9F01EC011B100F84B8F /* Build configuration list for PBXNativeTarget "Ballarisocial" */;
 			buildPhases = (
+				87C516BB3D68169CCEC36490 /* [CP] Check Pods Manifest.lock */,
 				CE7CA9C41EC011B100F84B8F /* Sources */,
 				CE7CA9C51EC011B100F84B8F /* Frameworks */,
 				CE7CA9C61EC011B100F84B8F /* Resources */,
+				1B239AB8A7349EF4B14E49E4 /* [CP] Embed Pods Frameworks */,
+				DFD1DCCF28339BF7EF238428 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7CA9F31EC011B100F84B8F /* Build configuration list for PBXNativeTarget "BallarisocialTests" */;
 			buildPhases = (
+				5627D9921AD12B80EFBBE98D /* [CP] Check Pods Manifest.lock */,
 				CE7CA9D81EC011B100F84B8F /* Sources */,
 				CE7CA9D91EC011B100F84B8F /* Frameworks */,
 				CE7CA9DA1EC011B100F84B8F /* Resources */,
+				25F56A4D07883844C38EDC5E /* [CP] Embed Pods Frameworks */,
+				7105564F32E8E5CA01778D57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7CA9F61EC011B100F84B8F /* Build configuration list for PBXNativeTarget "BallarisocialUITests" */;
 			buildPhases = (
+				A447F81E5F915C627BABF139 /* [CP] Check Pods Manifest.lock */,
 				CE7CA9E31EC011B100F84B8F /* Sources */,
 				CE7CA9E41EC011B100F84B8F /* Frameworks */,
 				CE7CA9E51EC011B100F84B8F /* Resources */,
+				9F2FBDA382989A000B1C7F31 /* [CP] Embed Pods Frameworks */,
+				91BFA72202FDE500827B57F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7CA9D61EC011B100F84B8F /* LaunchScreen.storyboard in Resources */,
+				CE7CA9FA1EC011E000F84B8F /* GoogleService-Info.plist in Resources */,
 				CE7CA9D31EC011B100F84B8F /* Assets.xcassets in Resources */,
 				CE7CA9D11EC011B100F84B8F /* Main.storyboard in Resources */,
 			);
@@ -254,12 +331,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B239AB8A7349EF4B14E49E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ballarisocial/Pods-Ballarisocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F56A4D07883844C38EDC5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallarisocialTests/Pods-BallarisocialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5627D9921AD12B80EFBBE98D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7105564F32E8E5CA01778D57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallarisocialTests/Pods-BallarisocialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C516BB3D68169CCEC36490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91BFA72202FDE500827B57F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallarisocialUITests/Pods-BallarisocialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2FBDA382989A000B1C7F31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BallarisocialUITests/Pods-BallarisocialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A447F81E5F915C627BABF139 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD1DCCF28339BF7EF238428 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ballarisocial/Pods-Ballarisocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE7CA9C41EC011B100F84B8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7CA9CE1EC011B100F84B8F /* ViewController.swift in Sources */,
+				CE7CA9CE1EC011B100F84B8F /* SignInVC.swift in Sources */,
 				CE7CA9CC1EC011B100F84B8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +625,7 @@
 		};
 		CE7CA9F11EC011B100F84B8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6065E0CD6360A7636B99E4 /* Pods-Ballarisocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ballarisocial/Info.plist;
@@ -422,6 +638,7 @@
 		};
 		CE7CA9F21EC011B100F84B8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDCB63F4E9414DC05B4BB92 /* Pods-Ballarisocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ballarisocial/Info.plist;
@@ -434,6 +651,7 @@
 		};
 		CE7CA9F41EC011B100F84B8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9644A059CBDBB86CD60B72CC /* Pods-BallarisocialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +666,7 @@
 		};
 		CE7CA9F51EC011B100F84B8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B6F8A0D9DCEC69E1248213 /* Pods-BallarisocialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +681,7 @@
 		};
 		CE7CA9F71EC011B100F84B8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED73FE172DE1E65E87471A9 /* Pods-BallarisocialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BallarisocialUITests/Info.plist;
@@ -475,6 +695,7 @@
 		};
 		CE7CA9F81EC011B100F84B8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97C56E097CE42BF10510F6F /* Pods-BallarisocialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BallarisocialUITests/Info.plist;
@@ -505,6 +726,7 @@
 				CE7CA9F21EC011B100F84B8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7CA9F31EC011B100F84B8F /* Build configuration list for PBXNativeTarget "BallarisocialTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +735,7 @@
 				CE7CA9F51EC011B100F84B8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7CA9F61EC011B100F84B8F /* Build configuration list for PBXNativeTarget "BallarisocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +744,7 @@
 				CE7CA9F81EC011B100F84B8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
